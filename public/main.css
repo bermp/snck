@@ -1,0 +1,78 @@
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+h3 {
+    color: red;
+}
+
+body {
+    background-color: #d0e4fe;
+    font-family: "Times New Roman";
+    font-size: 14px;
+}
+
+p {
+    font-family: "Arial";
+    font-size: 14px;
+}
+
+.content{
+    width:900px;
+}
+
+main{
+    margin:0 auto;
+    max-width: 900px;
+}
+.banner{ /*formats top banner */
+    width:900px;
+    height:100px;
+    background:#6BB9F0;
+    border-radius:0 50px 50px 0;
+}
+.banner h1{ /* formats Snck name */
+    padding:20px 20px;
+    margin:0 0;
+    height:50px;
+    width: 100px;
+    display:inline-block;
+    color:white;
+}
+
+.nav{  /*formats navigation bar */
+    height:25px;
+}
+.nav a{   /*formats navigation bar links */
+    text-decoration: none;
+    background: #6BB9F0;
+    border-radius:0 0 10px 10px;
+    color:white;
+    padding:0 70px;
+}
+.button:hover{ /* On mouse hover links turn white */
+    background: white;
+    color:black;
+}
+
+.center { /*setting margins to auto splits the available margin equally */
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.img{  /*sets img width within a contatiner ie the image will scale to fit the window
+        */
+    max-width: 80%;
+}
+
+/*img{ turned into class because img{} affects EVERY image that refers to this css*/
+/* Notice that lists items in a <p> tag and <nav> items still follow the formating designated in body part above */
+
+input[type=submit] { /*formats submit button */
+padding:5px 15px; background:#6BB9F0; border:0 none; /* bkgd hex value matches the snck color theme*/
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; }
+
