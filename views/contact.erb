@@ -1,13 +1,35 @@
-<h3>Contact</h3>
-<br>
+<link rel="stylesheet" type="text/css" href="contact.css">
 
-<form action="/contact" method=POST>
-	<label>Email</label>
-	<input type="text" name="email" value="Email">
-	<br><br>
-	<label>Leave a Message</label>
-	<br>
-	<textarea name="message" rows="4" cols="30" wrap=virtual>Write something sweet!</textarea>
-	<br><br>
-	<input type="submit" value="Send">
-</form>
+<body>
+
+	<h3> Email </h3>
+
+	<img id="emailimg" src="http://icons.iconarchive.com/icons/double-j-design/origami-colored-pencil/256/blue-mail-icon.png">
+
+	<form method="POST" action="/contact">
+		<label for="email"></label>
+		<input type="text" name="email" value="Email"></br>
+		</br>
+		<label for="password"></label>
+		<input type="text" onblur="this.value=!this.value?'Password':this.value;"
+		  onfocus="this.select()" onclick="if (this.value=='Password'){this.value=''; this.type='password'}" name="pwd" id="user_pass" class="input" value="Password"
+		  tabindex="20" />​</br>
+		</br>
+		<h3> Shipping Address </h3></br>
+		<label for="fname"></label>
+		<input type="text" name="fname" value="First name" id="fname">
+		<input type="text" name="lname" value="Last name" id="lname"></br>
+		</br>
+		<label for="address1"></label>
+		<input type="text" name="address1" value="Address Line 1" id="address1"></br>
+		</br>
+		<label for="address2"></label>
+		<input type="text" name="address2" value="Address Line 2 (apartment#, etc, optional)" id="address2"></br>
+		</br>
+		<label for="message">Message</label>
+		</br>
+		<textarea type="text" name="message" id="message"></textarea></br>
+		<input type="submit" id="sumbit">
+	</form>
+
+</body>

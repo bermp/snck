@@ -1,0 +1,50 @@
+body {
+	background: url(http://maryqin.com/wp-content/uploads/2013/12/escape-monthly-italy-box.jpg);
+	background-size: cover;
+	background-position: 50% 90%;
+}
+
+h3 {
+	color: white;
+}
+
+form {
+
+}
+
+input {
+	border-radius: 5px;
+	height: 25px;
+	opacity: .8;
+}
+
+textarea {
+	border-radius: 5px;
+}
+
+label {
+	color: white;
+}
+
+#emailimg {
+	width: 50px;
+	margin-bottom: 10px;
+}
+
+#address1 {
+	width: 265px;
+}
+
+#address2 {
+	width: 265px;
+}
+
+#message {
+	width: 265px;
+	height: 75px;
+	opacity: .8;
+}
+
+#sumbit {
+	margin-top: 10px;
+}
