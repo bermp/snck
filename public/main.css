@@ -1,8 +1,9 @@
-h1 {
-    color: orange;
-    text-align: center;
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
+<<<<<<< Updated upstream
 h3 {
     color: white;
 }
@@ -14,62 +15,49 @@ body {
     background: url(http://maryqin.com/wp-content/uploads/2013/12/escape-monthly-italy-box.jpg);
     background-size: cover;
     background-position: 50% 90%;
+=======
+#top-gray-bar {
+    background-color: #ECECEC;
+    width: 100%;
+    height: 25px;
+    text-shadow: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 
-p {
-    font-family: "Arial";
-    font-size: 14px;
+header {
+    text-align: center;
+>>>>>>> Stashed changes
 }
 
-.content{
-    width:900px;
+nav {
+    text-align: center;
+    margin-top: 0px;
+    background-color: #4183d7; 
 }
 
-main{
-    margin:0 auto;
-    max-width: 900px;
-}
-.banner{ /*formats top banner */
-    width:900px;
-    height:100px;
-    background:#6BB9F0;
-    border-radius:0 50px 50px 0;
-}
-.banner h1{ /* formats Snck name */
-    padding:20px 20px;
-    margin:0 0;
-    height:50px;
-    width: 100px;
-    display:inline-block;
-    color:white;
+nav ul {
+    margin: 0;
 }
 
-.nav{  /*formats navigation bar */
-    height:25px;
+nav ul li {
+    display: inline-block;
+    width: 20%;
+    margin: 0;
 }
-.nav a{   /*formats navigation bar links */
+
+nav li a {
+    display: block;
     text-decoration: none;
-    background: #6BB9F0;
-    border-radius:0 0 10px 10px;
-    color:white;
-    padding:0 70px;
-}
-.button:hover{ /* On mouse hover links turn white */
-    background: white;
-    color:black;
+    color: white;
+    padding: 2em;
 }
 
-.center { /*setting margins to auto splits the available margin equally */
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+.first {
 }
 
-.img{  /*sets img width within a contatiner ie the image will scale to fit the window
-        */
-    max-width: 80%;
-}
-
+<<<<<<< Updated upstream
 /*img{ turned into class because img{} affects EVERY image that refers to this css*/
 /* Notice that lists items in a <p> tag and <nav> items still follow the formating designated in body part above */
 
@@ -116,3 +104,5 @@ cursor:pointer;
 -webkit-border-radius: 5px;
 border-radius: 5px; }
 
+=======
+>>>>>>> Stashed changes

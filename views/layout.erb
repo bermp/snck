@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="/main.css">
-<title><%= @title %></title>
+	<link rel="stylesheet" type="text/css" href="/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<title><%= @title %></title>
 </head>
 
 <body>
-	<div class = "banner">
-		<h1>
-			Snck
-		</h1>
-		<img src="./logo.jpg" class="logo">
-	</div>
+	<div id="top-gray-bar"></div>
+	<div id="top-blue-bar">.</div>
+	<header>	
+		<nav class="nav">
+			<ul>
+			 <li><a href="/html/">HOME</a></li>
+			 <li><a href="/css/">ABOUT</a></li>
+			<!-- Logo goes here -->
+			<li><a href="/js/">MARKET</a></li>
+			<li><a href="/jquery/">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
 
-	<div class="nav">
-		<a href="/" class="button">HOME</a>
-		<a href="/about" class="button">ABOUT</a>
-		<a href="/market" class="button">MARKET</a>
-		<a href="/contact" class="button">CONTACT</a>
-	</div>
+<%= yield %>
 
-	<div class="content">
 
-	<%= yield %> <!--Text inputted by individual pages -->
-
-	</div>
 
 </body>
 </html>
+
 
