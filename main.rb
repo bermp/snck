@@ -2,22 +2,22 @@ require 'sinatra'
 require 'mandrill'
 require 'geolocater' #can be used for analytics or to require that user is in an area the site services
 
-get '/home/' do
+get '/' do
 	@title = "Snck"
     erb :home
 end
 
-get '/about/' 
-	do @title = "About"
+get '/about' do
+	@title = "About"
 	erb :about 
 end
 
-get '/products/' do 
+get '/products' do 
 	@title = "Products"
 	erb :products 
 end
 
-get '/contact/' do 
+get '/contact' do 
 	@title = "Contact"
 	erb :contact 
 end
@@ -46,7 +46,7 @@ post '/contact' do
 	redirect to('/thanks')
 end
 
-get '/thanks/' do 
+get '/thanks' do 
 	@title = "Thanks"
 	erb :thanks 
 end
