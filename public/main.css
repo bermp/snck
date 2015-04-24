@@ -3,19 +3,6 @@ body {
     margin: 0;
 }
 
-<<<<<<< Updated upstream
-h3 {
-    color: white;
-}
-
-body {
-    background-color: #d0e4fe;
-    font-family: "Times New Roman";
-    font-size: 14px;
-    background: url(http://maryqin.com/wp-content/uploads/2013/12/escape-monthly-italy-box.jpg);
-    background-size: cover;
-    background-position: 50% 90%;
-=======
 #top-gray-bar {
     background-color: #ECECEC;
     width: 100%;
@@ -28,7 +15,6 @@ body {
 
 header {
     text-align: center;
->>>>>>> Stashed changes
 }
 
 nav {
@@ -57,52 +43,3 @@ nav li a {
 .first {
 }
 
-<<<<<<< Updated upstream
-/*img{ turned into class because img{} affects EVERY image that refers to this css*/
-/* Notice that lists items in a <p> tag and <nav> items still follow the formating designated in body part above */
-
-input {
-    border-radius: 5px;
-    height: 25px;
-    opacity: .8;
-}
-
-textarea {
-    border-radius: 5px;
-}
-
-label {
-    color: white;
-}
-
-#emailimg {
-    width: 50px;
-    margin-bottom: 10px;
-}
-
-#address1 {
-    width: 265px;
-}
-
-#address2 {
-    width: 265px;
-}
-
-#message {
-    width: 265px;
-    height: 75px;
-    opacity: .8;
-}
-
-#sumbit {
-    margin-top: 10px;
-}
-
-input[type=submit] { /*formats submit button */
-padding:5px 15px; background:#6BB9F0; border:0 none; /* bkgd hex value matches the snck color theme*/
-cursor:pointer;
--webkit-border-radius: 5px;
-border-radius: 5px; }
-
-=======
->>>>>>> Stashed changes
