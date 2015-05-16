@@ -50,6 +50,17 @@ nav li a {
 .first {
 }
 
+.about {
+    background-image:url('../images/table_prep.jpg');
+    height: 100%;
+}
+
+.contact {
+    background-image:url('../images/blueberries.jpg');
+    background-size: cover;
+}
+
+/*creates black bkgrd*/
 html,
 button,
 input,
@@ -211,14 +222,14 @@ main {
     }
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../cutting_board_salad.jpg')}
+#slide-1 .bcg {background-image:url('../images/cutting_board_salad.jpg')}
 #slide-1 .hsContent {
     bottom: 200px;
     top: auto;
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('../raspberyy_mug.jpg')}
+#slide-2 .bcg {background-image:url('../images/raspberyy_mug.jpg')}
 #slide-2 .hsContent {
     margin-left: -450px;
     bottom: 200px;
@@ -226,7 +237,7 @@ main {
 }
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../onion_chop.jpg')}
+#slide-3 .bcg {background-image:url('../images/onion_chop.jpg')}
 #slide-3 .hsContent {
     margin-left: -239px;
 }
@@ -236,7 +247,7 @@ main {
     }
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:url('../strawberry_cereal.jpg')}
+#slide-4 .bcg {background-image:url('../images/strawberry_cereal.jpg')}
 #slide-4 .hsContent {
     margin-left: -450px;
 }
